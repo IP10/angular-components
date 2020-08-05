@@ -1,0 +1,14 @@
+<div class="grid">
+	<mat-grid-list cols="3" rowHeight="3:2.5">
+		<mat-grid-tile *ngFor="let picture of pictures">
+			<mat-card class="example-card card">
+				<img mat-card-image src="{{picture.download_url}}" class="img-picture">
+				<mat-card-content>
+					<p class="description">
+						{{picture.author}}
+					</p>
+				</mat-card-content>
+			</mat-card>
+		</mat-grid-tile>
+	</mat-grid-list>
+</div>

@@ -1,0 +1,21 @@
+.img-picture{
+  margin-top: 1px !important;
+  margin-left: 1px !important;
+  border-radius: 2%;
+  width:100%;
+  height:300px;
+  object-fit: cover;
+}
+.grid{
+  background-color: black;
+}
+
+.description{
+  color: white;
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+  width:100%;
+  height: 350px !important;
+}
